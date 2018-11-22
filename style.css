@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS RESET END*/
+
+
+/*CSS START*/
+
+.logo { 
+
+    background-color: #2F313C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;    
+
+}
+
+.green-line {
+    
+    background-color:#2CC681;
+    height: 4px;
+
+}
+
+.hero {
+
+   height: 88vh;
+   width: 100%;
+   display: inline-block;
+
+}
+
+.form {
+    
+   padding-bottom: 64px;
+   position: relative;
+   z-index: 1;
+   background: #FFFFFF;
+   max-width: 360px;
+   margin: 0 auto 100px;
+   margin-top: 60px;
+   text-align: center;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+body {
+    
+    background-image: url(images/hero.png);
+
+}
+
+.form--heading {
+    
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #2CC681;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.form--label {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.form-input {
+    
+    line-height: 2.5;
+    margin: 20px;
+    padding-top: 6px;
+      
+}
+
+.form-input-2 {
+     
+    line-height: 2.5;
+    margin: 20px;
+
+}
+
+.submitbutton {
+    
+  width: 90%;
+  background-color: #2CC681;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+
+}
+
+.submit {
+    
+    padding-top: 6px;
+
+}
+
+.form-bottom {
+    
+    float: left;
+    color: #2CC681;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.form-bottom-2 {
+    
+    float: right;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+
+span {
+    
+    color: #2CC681;
+
+}
+
+.form-bottom-div {
+    
+    padding-top: 16px;
+
+}
+
+/*CSS End*/
